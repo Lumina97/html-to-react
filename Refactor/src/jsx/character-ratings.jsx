@@ -8,7 +8,7 @@ export class CharacterRatings extends Component {
       <>
         <tr className={this.props.backgroundColorClass}>
           <td>{this.props.name}</td>
-          <td>{this.props.skillset}</td>{" "}
+          <td>{this.props.skillset}</td>
           {/* ↑Don't get me for camelCasing here I was just following naming conventions from the data ! :D */}
           <td>{this.props.votes}</td>
         </tr>

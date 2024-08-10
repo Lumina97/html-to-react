@@ -56,7 +56,7 @@ function App() {
               nickName={item.nickName}
               url={item.imageUrl}
               description={item.background}
-              key="item.name"
+              key={item.name}
             />
           );
         })}
