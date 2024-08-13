@@ -1,4 +1,4 @@
-import "../css/character-cards.css";
+import "./character-cards.css";
 
 export function CharacterCard({ name, nickName, url, description }) {
   return (

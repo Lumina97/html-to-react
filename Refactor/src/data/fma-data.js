@@ -1,13 +1,4 @@
-type Character = {
-  name: string;
-  skillset: string[];
-  votes: number;
-  imageUrl: string;
-  background: string;
-  nickName: null | string;
-};
-
-const data: Character[] = [
+export const data = [
   {
     name: "Alex Louis Armstrong",
     nickName: "Major Armstrong",
@@ -98,7 +89,3 @@ const data: Character[] = [
       "https://s3.amazonaws.com/comicgeeks/characters/avatars/36066.jpg?t=1668454278",
   },
 ];
-
-export default {
-  data,
-};
